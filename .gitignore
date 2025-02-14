@@ -1,1 +1,4 @@
 env
+processed.word2vec
+processed.word2vec.wv.vectors.npy
+processed.word2vec.trainables.syn1neg.npy

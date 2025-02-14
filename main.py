@@ -14,8 +14,8 @@ with open('./dataset/sample_unlable_data.json', 'r', encoding='utf-8') as f:
 # print(unlabeled_data)
 
 
-model = "processed.word2vec"
-word2vec_model = Word2Vec.load("processed.word2vec")
+model = "./processed.word2vec"
+word2vec_model = Word2Vec.load(model)
 
 def question_to_vector(word):
     return word2vec_model.wv[word]
